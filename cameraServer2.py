@@ -44,4 +44,5 @@ while True:
     print("Successfully closed websocket connection")
     print("Making Video Available to Android App")
     shutil.copy2(filepath+'vidrec.mp4', '/var/www/html/vidrec.mp4')
+    subprocess.call(['touch',cwd +'/notificationPush/temp.txt'])
     print("Video is now available")
