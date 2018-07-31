@@ -3,10 +3,10 @@
 #define lock D0
 // Update these with values suitable for your network.
 
-const char* ssid = "........";
-const char* password = "........";
-const char* mqtt_server = "broker.mqtt-dashboard.com";
-
+const char* ssid = "MC_LGv30";
+const char* password = "mih12345";
+//const char* mqtt_server = "broker.mqtt-dashboard.com";
+const char* mqtt_server = "18.222.90.144";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
@@ -26,7 +26,8 @@ void setup() {
 //making connection to mqtt
 while (!client.connected()) {
     Serial.println("Connecting to MQTT...");
-    if (client.connect("ESP8266Client", mqttUser, mqttPassword )) {
+    //if (client.connect("ESP8266Client", mqttUser, mqttPassword )) {
+      if (client.connect("ESP8266Client")){
       Serial.println("connected");  
     } else {
       Serial.print("failed with state ");
