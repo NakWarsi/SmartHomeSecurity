@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514329252320",
+    "firebase_url": "https://shsecuirity-26784.firebaseio.com",
+    "project_id": "shsecuirity-26784",
+    "storage_bucket": "shsecuirity-26784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514329252320:android:37a7c3ef9537b51e",
+        "android_client_info": {
+          "package_name": "com.example.iot.shsecuirity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514329252320-kbbssjkoogi6jis5kr8m1fndlnglv0vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iot.shsecuirity",
+            "certificate_hash": "540e0bf15bf717b0b4efeebbfa4445a609876e24"
+          }
+        },
+        {
+          "client_id": "514329252320-mpdo4disitscqgobprn3rvi0eevst21s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOuM7hyUtnD_u7lvX6gAmSlpJYzURw7Vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514329252320-mpdo4disitscqgobprn3rvi0eevst21s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
